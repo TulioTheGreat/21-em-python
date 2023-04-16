@@ -52,7 +52,7 @@ while jogadorIn and dealerIn:
     if jogadorIn:
         stayOrHit = input("1: Pedir outra carta\n2: Descer cartas\n")
     if total(maoDoDealer) > 16:
-        delaerIn = False
+        dealaerIn = False
     else:
         darCarta(maoDoDealer)
     if stayOrHit == '2':
